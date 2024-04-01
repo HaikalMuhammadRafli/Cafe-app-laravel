@@ -1,0 +1,139 @@
+:root {
+    --prim-font: montserrat;
+    --sec-font: poppins;
+
+    --prim-color: rgb(255, 128, 89);
+    --prim-color-dark: rgb(255, 98, 36);
+    --sec-color: rgb(255, 174, 142);
+    --ter-color: rgb(249, 214, 181);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--sec-font);
+}
+
+#main {
+    margin-top: 90px;
+    min-height: 70vh;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navbar-main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+    background-color: var(--prim-color);
+    color: white;
+
+    .nav-link {
+        color: white;
+        font-size: 11pt;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-family: var(--prim-font);
+        font-weight: 600;
+    }
+
+    .offcanvas-btn {
+        background-color: white;
+        border: 0;
+        font-size: 11pt;
+        font-weight: 500;
+        color: var(--prim-color);
+    }
+
+    .dropdown-toggle {
+        background-color: white;
+        color: var(--prim-color);
+        border: 0;
+        font-size: 11pt;
+        font-weight: 500;
+        border-radius: 25px;
+        padding: 4px 15px;
+    }
+}
+
+.offcanvas-title {
+    color: var(--prim-color);
+}
+
+.status-masakan {
+    background-color: var(--prim-color);
+    padding: 5px 10px;
+    border-radius: 0 0 8px 8px;
+
+    p {
+        color: white;
+        font-size: 11pt;
+        font-weight: 500;
+    }
+}
+
+footer {
+    background-color: var(--prim-color);
+    padding: 12px 0;
+
+    h6 {
+        color: white;
+    }
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--prim-color);
+    border: 0;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--prim-color-dark);
+    border: 0;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: var(--sec-color);
+    border: 0;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: var(--prim-color);
+    border: 0;
+}
+
+.login-btn {
+    color: var(--prim-color);
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 4px 18px;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.login {
+    color: var(--prim-color);
+    font-family: var(--prim-font);
+    font-weight: 600;
+}
+
+.grayscale-img {
+    filter: grayscale(100%);
+}
+
+.customer-pages-homepage-main {
+    h1 {
+        font-size: 60pt;
+        margin-top: 200px;
+    }
+}
